@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{StaticResource Primary}">
+    
+    <VerticalStackLayout VerticalOptions="CenterAndExpand">
+        
+        <Label Text="Sobre o Desenvolvedor"
+               TextColor="{StaticResource White}"
+               FontFamily="PoiretOne"
+               FontSize="35"
+               HorizontalTextAlignment="Center" />
+
+        <Frame Margin="10" BackgroundColor="{StaticResource MidnightBlue}">
+            <HorizontalStackLayout>
+                <HorizontalStackLayout>
+                    <ImageButton Source="coraline.jpg"
+                                 HeightRequest="100" 
+                                 CornerRadius="50"/>
+                    <Label Text="Meu nome é Sara, tenho 26 anos e meu objetivo é construir uma carreira na área de TI. Até o momento, descobri que não gosto de FrontEnd."
+                           Padding="10"
+                           LineBreakMode="WordWrap"
+                           WidthRequest="230"
+                           HorizontalOptions="Fill"/>
+                </HorizontalStackLayout>
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Label Text="Sobre o Aplicativo"
+               TextColor="{StaticResource White}"
+               FontFamily="PoiretOne"
+               FontSize="35"
+               HorizontalTextAlignment="Center" />
+
+        <Frame Margin="10" BackgroundColor="{StaticResource MidnightBlue}">
+            <HorizontalStackLayout>
+                <HorizontalStackLayout>
+                    <Label Text="Este aplicativo simula uma página de reservas de um hotel e foi desenvolvido durantes as aulas de DS II do curso de Desenvolvimento de Sistemas da ETEC, em novembro de 2024."
+                           LineBreakMode="WordWrap"
+                           WidthRequest="325"
+                           HorizontalOptions="Fill"/>
+                </HorizontalStackLayout>
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Button Text="Voltar"
+                TextColor="{StaticResource White}"
+                BackgroundColor="{StaticResource MidnightBlue}"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked" />
+
+    </VerticalStackLayout>
+    
+</ContentPage>
