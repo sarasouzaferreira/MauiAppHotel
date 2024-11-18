@@ -37,7 +37,7 @@
         <Frame Margin="10" BackgroundColor="{StaticResource MidnightBlue}">
             <HorizontalStackLayout>
                 <HorizontalStackLayout>
-                    <Label Text="Este aplicativo simula uma página de reservas de um hotel e foi desenvolvido durantes as aulas de DS II do curso de Desenvolvimento de Sistemas da ETEC, em novembro de 2024."
+                    <Label Text="Este aplicativo simula uma página de reservas de um hotel e foi desenvolvido durante as aulas de DS II do curso de Desenvolvimento de Sistemas da ETEC, em novembro de 2024."
                            LineBreakMode="WordWrap"
                            WidthRequest="325"
                            HorizontalOptions="Fill"/>
